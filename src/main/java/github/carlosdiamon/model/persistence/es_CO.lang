@@ -1,0 +1,75 @@
+# <ZAPHKIEL BOT>, [Lang = Español]
+# Comandos Descripción
+
+zaphkiel.command.help.description = ¡Muestra todas las posibilidades!
+zaphkiel.command.avatar.description = Puedes ver el avatar de cualquier miembro del servidor
+zaphkiel.command.music.description = Reproduce cualquier musica en un canal de voz
+zaphkiel.command.leave.description = Desconectar al bot  en un canal de voz
+zaphkiel.command.ping.description = ¡Ping-Pong!
+zaphkiel.command.userinfo.description = Mostrar información detallada de un usuario
+zaphkiel.command.fakemessage.description = Crear mensajes falsos de discord
+zaphkiel.command.clearmessages.description = Borrar una cantidad de mensajes Concreta
+
+# Embeds
+
+# Embed Help
+
+zaphkiel.embed.help.title = MENU DE COMANDOS
+zaphkiel.embed.help.description = \n**Comandos**\n**_Administración_**\n`zk!ban` NoN\n`zk!mute` NoN\n`zk!nuke` NoN\n\n**_Sonido_**\n`zk!music` Añade Musica\n`zk!leave` Salir del canal\n\n**_Utilidad_**\n`zk!avatar` Mostrar la imagen de perfil\n\n
+zaphkiel.embed.help.footer = Creado por: CarlosDiamon#4730
+
+# Embed Musica
+
+zaphkiel.embed.order.footer = Pedido por: %AUTHOR%
+zaphkiel.embed.addqueue.footer = Añadido por %AUTHOR%
+
+zaphkiel.embed.nowplaying.description = **Autor: ** %YTACCOUNT% ** |  Pausa: **%PAUSE%**  | Bucle:** %BUCLE%\n%PROGBAR%
+
+zaphkiel.embed.search.title = %YTTITLE%
+zaphkiel.embed.search.desc0 = Pagina: **%SEARCHACTL% / %SEARCHSIZE%** | Busqueda: **%SEARCH%:**\n\n
+zaphkiel.embed.search.desc1 = **Canal:** `%YTACCOUNT%`\n```%YTDESCRIPTION%```
+
+zaphkiel.embed.queue.title = Musica actualmente en cola
+zaphkiel.embed.queue.desc0 = Actualmente En esta lista se encuentran **[ %QUEUE% ]**:\n\n
+zaphkiel.embed.queue.desc1 = **%NUMQ% |** `%YTTITLE% por %YTACCOUNT%` **[** %YTTIME% **]**\n
+zaphkiel.embed.queue.desc2 = y %MISSINGMSC% mas . . .
+
+# Embed InfoUser
+
+zaphkiel.embed.infouser.title = Información %USER%
+zaphkiel.embed.infouser.titlebanner = Banner de %MEMBER%
+zaphkiel.embed.infouser.field.title0 = <:ICON_PERSON:1058837904249589820> User ID
+zaphkiel.embed.infouser.field.title1 = <:ICON_HASTAG:1058838561320869929> Discriminador
+zaphkiel.embed.infouser.field.title2 = <:ICON_BADGES:1058840320550379660> Badges
+zaphkiel.embed.infouser.field.title3 = <:ICON_DISCORD:1058837055964201083> Miembro de Discord
+zaphkiel.embed.infouser.field.title4 = <:ICON_COLOR:1058839295210831932> Color
+
+zaphkiel.embed.infomember.title = Información en el servidor
+zaphkiel.embed.infomember.field.title0 = <:ICON_ROL:1059286334713385002> Roles
+zaphkiel.embed.infomember.field.title1 = <:ICON_PERMISS:1059286333274726500> Permisos
+zaphkiel.embed.infomember.field.title2 = <a:BOOST:1058138389901213748> Tiempo bosteado
+zaphkiel.embed.infomember.field.title3 = <:ICON_GUILD:1058839718218965122> Miembro de %NAMEGUILD%
+
+zaphkiel.embed.infomember.response.boost = Aun no a Boosteado el servidor;
+# Respuestas
+zaphkiel.ping.response = ¡Pong! `%AUTHOR%: %PING% | Websocket: %WEBSOCKET%` :ping_pong:
+zaphkiel.channelnotfound.response = No te encuentras en un canal de voz, conectate a uno y vuelve a intentarlo.
+zaphkiel.queueempety.response = La lista de canciones esta vacia.
+zaphkiel.trackplaycurr.response = Actualmente no se esta reproduciendo ninguna cancion
+zaphkiel.trackbucle.response = **%YTTITLE% | Bucle:** %BUCLE%
+zaphkiel.trackpause.response = **%YTTITLE% | Pausa:** %PAUSE%
+zaphkiel.trackskip.response = **¡SKIP!**
+zaphkiel.addingqueue0.response = Añadido a la lista\n**Autor:** %YTACCOUNT% **| Duración: [** %YTTIME% **]**
+zaphkiel.addingqueue1.response = Añadido a la lista **%YTSIZE%** elementos\n**Autor:** %YTACCOUNT% **| Duración: [** %YTTIME% **]**
+zaphkiel.disconectchannel.response = Desconectando. . .
+zaphkiel.trackerror.response = El URL proporciónado no es valido, vuelva a intentar <:k6:1055524004175302656>
+zaphkiel.clearmessages.response = Se borro %COUNTCLEAR% mensajes 🧹
+zaphkiel.2weeksmessages.response = No se pudo completar porque los mensajes superan las 2 semanas.
+zaphkiel.yes.text = SI
+zaphkiel.no.text = NO
+
+# Excepciónes
+zaphkiel.exception.invalidid = La id ingresada no es valida, vuelve a intentarlo.
+zaphkiel.exception.lackofarguments = Falta de argumentos en %COMMAND%, vuelve a intentar.
+zaphkiel.exception.tokenyoutube403 = No se pudo buscar el video, intenta con un enlace
+zaphkiel.exception.error = Ocurrio un error inesperado <:k6:1055524004175302656>
